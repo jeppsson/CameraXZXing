@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="AZTEC"
+        app:title="Aztec 2D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="CODABAR"
+        app:title="CODABAR 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="CODE_39"
+        app:title="Code 39 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="CODE_93"
+        app:title="Code 93 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="CODE_128"
+        app:title="Code 128 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="DATA_MATRIX"
+        app:title="Data Matrix 2D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="EAN_8"
+        app:title="EAN-8 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="EAN_13"
+        app:title="EAN-13 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="ITF"
+        app:title="ITF (Interleaved Two of Five) 1D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="MAXICODE"
+        app:title="MaxiCode 2D" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="PDF_417"
+        app:title="PDF417" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="QR_CODE"
+        app:title="QR Code 2D" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="RSS_14"
+        app:title="RSS_14" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="RSS 14"
+        app:title="RSS_14" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="RSS EXPANDED"
+        app:title="RSS_EXPANDED" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="UPC-A 1D"
+        app:title="UPC_A" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="UPC-E 1D"
+        app:title="UPC_E" />
+</PreferenceScreen>
